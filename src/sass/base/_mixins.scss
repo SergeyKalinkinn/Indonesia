@@ -1,0 +1,16 @@
+@mixin top_text {
+    padding-left: 100px;        
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFC178;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 72px;            
+        top: 212px;
+        left: 8px;    
+        border: 2px solid #FFC178;
+        border-radius: 2px;
+    }
+}

@@ -1,0 +1,16 @@
+.title {
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    &_fz64 {
+        font-weight: 700;
+        font-size: 64px;               
+    }
+    &_center {
+        text-align: center;
+        margin-bottom: 27px;
+    }
+}
+
+
